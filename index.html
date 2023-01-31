@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time table</title>
+</head>
+<body>
+    <header>Time Table</header>
+    <div>
+        <table class="table-design">
+            <tr>
+                <th>Day Order</th>
+                <th>1</th>
+                <th>2</th>
+                <th rowspan="6">interval</th>
+                <th>3</th>
+                <th>4</th>
+                <th rowspan="6">Lunch</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>I</th>
+                <th>IOT</th>
+                <th>BDA</th>
+                <th>.NET</th>
+                <th>WEB LAB</th>
+                <th>OR</th>
+                <th>SPM</th>
+            </tr>
+            <tr>
+                <th>II</th>
+                <th>IOT</th>
+                <th>BDA</th>
+                <th>.NET</th>
+                <th>WEB LAB</th>
+                <th>OR</th>
+                <th>SPM</th>
+            </tr>
+            <tr>
+                <th>III</th>
+                <th>IOT</th>
+                <th>BDA</th>
+                <th>.NET</th>
+                <th>WEB LAB</th>
+                <th>OR</th>
+                <th>SPM</th>
+            </tr>
+            <tr>
+                <th>IV</th>
+                <th>IOT</th>
+                <th>BDA</th>
+                <th>.NET</th>
+                <th>WEB LAB</th>
+                <th>OR</th>
+                <th>SPM</th>
+            </tr>
+            <tr>
+                <th>V</th>
+                <th>IOT</th>
+                <th>BDA</th>
+                <th>.NET</th>
+                <th>WEB LAB</th>
+                <th>OR</th>
+                <th>SPM</th>
+            </tr>
+            
+        </table>
+    </div>
+    <style>
+        header{
+             background: linear-gradient(50deg,blue,red);
+            color:whitesmoke;
+            text-align: center;
+            width:100%;
+            display: block;
+            padding:10px;
+            font-size: 22px;
+            }
+            table,tr,th,td{
+                 border: 2px solid red;
+                border-collapse: collapse;
+                padding:5px;
+                text-align: center;
+            }
+            .table-design{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+            tr th:nth-child(4) {
+                   writing-mode: vertical-lr;
+                   -ms-writing-mode: tb-rl;
+                   transform: rotate(180deg);
+            }
+            tr th:nth-child(7) {
+                   writing-mode: vertical-lr;
+                   -ms-writing-mode: tb-rl;
+                   transform: rotate(180deg);
+            }
+            tr>th{
+                background: linear-gradient(45deg,green,blue);
+            }
+    </style>
+           
+</body>
+</html>
